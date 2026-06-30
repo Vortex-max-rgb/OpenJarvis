@@ -54,13 +54,7 @@ _CALENDAR_REQUEST_TERMS = _CALENDAR_TERMS | {
     "meetings",
     "schedule",
 }
-_GCALENDAR_GENERIC_TERMS = _UPCOMING_TERMS | _CALENDAR_TERMS | {
-    "appointment",
-    "appointments",
-    "meeting",
-    "meetings",
-    "schedule",
-}
+_GCALENDAR_GENERIC_TERMS = _UPCOMING_TERMS | _CALENDAR_REQUEST_TERMS
 _QUERY_STOPWORDS = {
     "a",
     "all",
